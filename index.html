@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media query</title>
+    <script src="https://kit.fontawesome.com/7eac05663c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <i class="fa-solid fa-bars" onclick="clickMenu()"></i>
+            <menu  id="itens">
+                <ul>
+                    <li>
+                        <a href="#">Opção1</a>
+                    </li>
+                    <li>
+                        <a href="#">Opção</a>
+                    </li>
+                    <li>
+                        <a href="#">Opção</a>
+                    </li>
+                    <li>
+                        <a href="#">Opção</a>
+                    </li>
+                    <li>
+                        <a href="#">Opção</a>
+                    </li>
+                </ul>
+            </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando media queries</h2>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa quis quibusdam unde consequatur et, repudiandae pariatur rem praesentium eligendi alias voluptate distinctio repellat vero voluptas cumque mollitia sunt natus vitae.
+                Eligendi, minima explicabo. Quo repellendus enim, soluta sit esse quae repudiandae ratione nulla sunt provident doloremque asperiores? Reprehenderit possimus fugiat, eius deleniti tenetur, corrupti veritatis hic facilis, quod quasi totam!
+            </p>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa quis quibusdam unde consequatur et, repudiandae pariatur rem praesentium eligendi alias voluptate distinctio repellat vero voluptas cumque mollitia sunt natus vitae.
+                Eligendi, minima explicabo. Quo repellendus enim, soluta sit esse quae repudiandae ratione nulla sunt provident doloremque asperiores? Reprehenderit possimus fugiat, eius deleniti tenetur, corrupti veritatis hic facilis, quod quasi totam!
+            </p>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa quis quibusdam unde consequatur et, repudiandae pariatur rem praesentium eligendi alias voluptate distinctio repellat vero voluptas cumque mollitia sunt natus vitae.
+                Eligendi, minima explicabo. Quo repellendus enim, soluta sit esse quae repudiandae ratione nulla sunt provident doloremque asperiores? Reprehenderit possimus fugiat, eius deleniti tenetur, corrupti veritatis hic facilis, quod quasi totam!
+            </p>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+          if (itens.style.display == 'block') {
+            itens.style.display = 'none'
+          } else {
+            itens.style.display = 'block'
+          }
+        }
+    </script>
+</body>
+</html>
